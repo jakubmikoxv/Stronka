@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jakub Mikolajczyk 113769</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body id="Glowna">
+    <header>
+        <div class="pasek">
+            <div>
+                <img src="img\ikonka.png" alt='ikonka' class="ikonka"/>
+            </div>
+            <div class="menu">
+                <a href="#Glowna">Glowna</a>
+                <a href="#Witamy Streamera">Witamy Streamera</a>
+                <a href="#Zacznij Streamować">Zacznij Streamować</a>
+                <a href="#Partnerstwa i Współprace">Partnerstwa i Współprace</a>
+                <a href="#Społeczność">Społeczność</a>
+            </div>
+        </div>
+    </header>
+
+
+<main>
+    <div class="powitanie">
+       
+    </div>
+
+        <div class="glowna">
+            <div class="glowna2">
+
+                    <div class="kolumny1">
+                        <div class="zdjecia">
+                            <div class="tekst">
+                                <h2>Streamuj z nami</h2>
+                                <img id="1" src="img\streamuj z nami.png" alt="pracownik roku"/>
+                                <p>Streamowanie to jedna z najpopularniejszych form rozrywki w internecie. Dzięki platformom takim jak Twitch, każdy może stać się twórcą i prowadzić własny kanał. Wystarczy jedynie komputer, kamera i mikrofon. W naszej ofercie znajdziesz wszystko, czego potrzebujesz, aby zacząć swoją przygodę z streamowaniu.</p>
+                            </div>
+                        
+                            <div id="Witamy Streamera">
+                            <div class="tekst">
+                                <h2>Witamy Streamera</h2>
+                                <img id="2" src="img\biurko.png" alt="biurko"/>
+                                <p>Witaj w świecie streamingu! Jeśli marzysz o zbudowaniu własnej społeczności, dzieleniu się pasją i zarabianiu na Twitchu, jesteś we właściwym miejscu. Dowiedz się, jak rozpocząć swoją przygodę i osiągnąć sukces jako streamer.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="Zacznij Streamować"></div>
+                <div class="kolumny2">
+                <div class="zdjecia">
+                        <div class="tekst">
+                            <h2>Zacznij Streamować</h2>
+                            <p>Zaplanuj swoją karierę na Twitchu! Przygotuj harmonogram streamów, wybierz gry i stwórz unikalny styl, który przyciągnie widzów. Pomożemy Ci zbudować strategię, która działa.   </p>
+                            <img id="3" src="img\harmonogram.png" alt="harmonogram"/>
+                            
+                            
+                        </div>
+                        <div class="tekst">
+                            <div class="zdjecia2">
+                                <img id="4" src="img\harmonogram2.png" alt="harmonogram2"/>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                        </div>
+                    <div id="Partnerstwa i Współprace">
+                    <div class="zdjecia">
+                        <div class="tekst">
+                            <h2>Partnerstwa i Współprace</h2>
+                            <p>Zdobądź partnerów i współpracuj z markami! Dowiedz się, jak nawiązać współprace, które zwiększą Twoje zasięgi i przyniosą dodatkowy dochód.</p>
+                            <img id="5" src="img\thexanos.png" alt="thexanos"/>
+                            <p>Streamer TheXanos ogłosił współpracę z Lidlem</p>
+                        </div>
+
+                    </div>
+                    
+                    <div id="Społeczność">
+                    <div class = "tekst">
+                    <h2>Społeczność</h2>
+                    <p>Dołącz do naszej społeczności! Poznaj innych streamerów, zdobądź wskazówki i wsparcie, a także uczestnicz w wydarzeniach i konkursach. Razem możemy więcej!</p>
+                </div>
+                </div>
+            </div>
+            <div class="slideshow-container">
+
+                <div class="gallery">
+                <div class="numbertext">1/4</div>
+                    <img src="img\colab1.png" alt="Kai Cenat" style="width:100%">
+        
+                </div>
+                <div class="gallery">
+                <div class="numbertext">2/4</div>
+                    <img src="img\colab2.png" alt="Twitchcon" style="width:100%">
+                </div>
+        
+                <div class="gallery">
+                <div class="numbertext">3/4</div>
+                <img src="img\colab3.png" alt="Vtubers collab" style="width:100%">
+                </div>
+        
+                <div class="gallery">
+                <div class="numbertext">4/4</div>
+                <img src="img\colab4.png" alt="Conor i Ironmouse" style="width:100%">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                <span class="dot" onClick="currentSlide(4)"></span>
+                </div>
+                
+            <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              let i;
+              let slides = document.getElementsByClassName("gallery");
+              let dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " active";
+            }
+            </script>
+            </div>
+    
+</main>
+</body>
+</html>
